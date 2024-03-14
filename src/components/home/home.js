@@ -217,7 +217,8 @@ const Dashboard = () => {
 
   const generateReferralLink = (id) => {
     // Implement your logic to generate the referral link based on the provided ID
-    return `http://localhost:3000?id=${id}`;
+    //return `http://localhost:3000?id=${id}`;
+      return `https://globalnvp.com/?id=${id}`;
   };
   const copyToClipboard = (text) => {
     // Create a temporary textarea element to copy the text
